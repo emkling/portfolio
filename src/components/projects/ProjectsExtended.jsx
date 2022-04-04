@@ -1,5 +1,4 @@
 import React from 'react'
-import './projects.css'
 import portfolio from '../assets/portfolio-picture.png'
 import {FaGithub} from 'react-icons/fa'
 import inventory from '../assets/inventory-app.png'
@@ -29,7 +28,8 @@ const Projects = () => {
 }, [inView]);
 
   return (
-    <div ref={ref}  className='w-full sm:h-screen relative text-gray-300 bg-[#0a192f] z-10'>
+    <div ref={ref} className='w-full sm:h-screen relative text-gray-300 bg-[#0a192f] z-10'>
+
       <div className = 'max-w-[1000px] mx-auto p-4 snap-start' >
         <div className='sm:text-center pt-36 pb-6 sm:pb-10'>
           <h1 className='text-4xl pl-4 sm:pl-0 font-bold relative rounded-md text-[#D8A31A]'>
@@ -64,14 +64,13 @@ const Projects = () => {
                <h1 className='text-xl text-left text-gray-300'>Portfolio Site</h1>
              </div>
              
-             <div className='w-full  bg-[#102649] rounded-md  flex justify-center items-center py-4'>
+             <div className='w-full  bg-[#102649] rounded-md  flex justify-center items-center p-4'>
                <p className='text-left '>Built with JavaScript, HTML, CSS, React, and Tailwind </p> 
              </div>
-             <a href = "https://github.com" target="_blank" className='flex justify-end pr-16 pt-4 text-gray-300 hover:text-[#D8A31A]' ><FaGithub color='#D8A31A' size={25}/></a>
+             <a href = "https://github.com/emkling/portfolio" target="_blank" className='flex justify-end pr-16 pt-4 text-gray-300 hover:text-[#D8A31A]' ><FaGithub color='#D8A31A' size={25}/></a>
           </div>
           <div style={{backgroundImage: `url(${portfolio})`}} className='sm:w-1/2 h-full bg-cover rounded-md bg-[#FFFFFF] brightness-75' > </div>
 
-          
         </motion.section>
 
         <div id="wave">

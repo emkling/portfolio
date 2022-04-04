@@ -4,7 +4,6 @@ import {motion, useAnimation} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from 'react';
 import Greeting from './Greeting';
-import './home.css'
 import resume from '../assets/testResume.pdf'
 
 const Home = () => {
@@ -47,23 +46,22 @@ useEffect(() => {
         >I'm a CS grad student</motion.p>
         <div>
           <div className='flex flex-row flex-start gap-12'>
-            <motion.button className=' text-white border-2 px-3 md:px-5 py-3 group my-2 flex items-center hover:border-[#D8A31A] rounded-lg hover:bg-[#D8A31A]'
-            initial={{ opacity: 0 }}
-            animate={animation}
-            >Resume
-            <span className='group-hover:rotate-90 duration-300'>
-                <HiArrowNarrowRight className='ml-3' />
-            </span>
-            </motion.button>
 
-            <motion.button onClick="window.open('../assets/testResume.pdf')" type="submit" className='group bg-[#D8A31A] text-white border-2 px-2 md:px-4 py-3 my-2 flex items-center border-[#D8A31A] rounded-lg hover:bg-[#0a192f]'
-            initial={{ opacity:0 }}
-            animate={animation}
-            >View Work
-            <span className='group-hover:rotate-90 duration-300'>
+            <motion.a initial={{ opacity:0 }}
+            animate={animation} href={resume} download="Elliott_K_Resume" className="text-white border-2 px-3 md:px-5 py-3 group my-2 flex items-center hover:border-[#D8A31A] rounded-lg hover:bg-[#D8A31A]">Resume <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-3' />
-            </span>
-          </motion.button>
+            </span> </motion.a>
+            
+            <motion.a initial={{ opacity:0 }}
+            animate={animation} href='#projects' className="bg-[#D8A31A] text-white border-2 px-2 md:px-4 py-3 my-2 flex items-center group border-[#D8A31A] rounded-lg hover:bg-[#0a192f]">View Work  <span className='group-hover:rotate-90 duration-300'>
+                <HiArrowNarrowRight className='ml-3' />
+            </span> </motion.a>
+
+            
+
+
+            
+        
         </div>
       </div>
       

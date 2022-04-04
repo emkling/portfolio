@@ -44,7 +44,7 @@ const About = () => {
         </div>
         </div>
 
-        <div className='max-w-[800px] w-full grid sm:grid-cols gap-8 px-4 pb-12 sm:pb-14  shadow-sm'>
+        <div className='max-w-[800px] w-full grid sm:grid-cols gap-8 px-4 pb-8 sm:pb-14  shadow-sm'>
           <div>
             <p className='text-2xl'>Hello, I am a student searching for development opportunites, exploring a variety of tech stacks, and pursuing a part-time Masters in Computer Science through the University of Illinois.</p>  
           </div >
