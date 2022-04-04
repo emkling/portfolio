@@ -1,3 +1,2 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio
+My first website, built using JavaScript, HTML, CSS, React and Tailwind.
