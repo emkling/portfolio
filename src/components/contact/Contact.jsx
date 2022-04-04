@@ -3,7 +3,6 @@ import {motion, useAnimation} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from 'react';
 
-
 const Contact = () => {
 
   const {ref, inView} = useInView({threshold: 0.5});
@@ -22,7 +21,6 @@ const Contact = () => {
       })
     }
   }, [inView]);
-
 
   return (
       <div ref={ref} mame='contact' id='contact' className='w-full h-screen flex justify-center relative items-center p-4 snap-start bg-[#0a192f] sm:bg-inherit'>

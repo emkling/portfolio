@@ -56,21 +56,15 @@ useEffect(() => {
             animate={animation} href='#projects' className="bg-[#D8A31A] text-white border-2 px-2 md:px-4 py-3 my-2 flex items-center group border-[#D8A31A] rounded-lg hover:bg-[#0a192f]">View Work  <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-3' />
             </span> </motion.a>
-
-            
-
-
-            
-        
         </div>
       </div>
       
     </div>
-    <motion.div id='wave'>
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <motion.div id='wave'>
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-    </svg>
-    </motion.div>
+        </svg>
+        </motion.div>
     </div>
      
 

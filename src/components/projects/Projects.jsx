@@ -31,12 +31,11 @@ const Projects = () => {
 
   return (
     <div ref={ref} className='w-full sm:h-screen relative text-gray-300 bg-[#0a192f] z-10'>
-
-<div id="wave2">
+      <div id="wave2">
        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
          <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
          </svg>
-      </div>
+        </div>
 
       <motion.div animate={animation} name='projects' id='projects' className='max-w-[1000px] mx-auto p-4 snap-start' >
         <div className='sm:text-center pt-36 pb-6 sm:pb-10'>
@@ -80,10 +79,7 @@ const Projects = () => {
              <a href = "https://github.com/emkling/delivery-routing-program" target="_blank" className='flex justify-end pr-16 pt-4 text-gray-300 hover:text-[#D8A31A]' ><FaGithub color='#D8A31A' size={25}/></a>
           </div>
           <div style={{backgroundImage: `url(${delivery})`}} className='sm:w-1/2 h-full bg-cover rounded-md bg-[#FFFFFF] brightness-75' > </div>
-
         </motion.section>
-
-        
     </div>
   )
 }

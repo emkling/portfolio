@@ -4,8 +4,6 @@ import {motion, useAnimation} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from 'react';
 
-
-
 const About = () => {
   const {ref, inView} = useInView({threshold: 0.5});
   const animation = useAnimation();
@@ -38,7 +36,7 @@ const About = () => {
         <div className='sm:text-center sm:pb-14'>
           <h1 className='text-4xl pl-4 sm:pl-0 font-bold relative rounded-md text-[#D8A31A]'>
           <div className='hidden w-2/6 md:inline-block left-0 absolute h-[1.5px] top-1/2 bg-[#D8A31A]'></div>
-          About Me 
+           About Me 
           <div className='hidden w-2/6 md:inline-block right-0 absolute h-[1.5px] top-1/2 bg-[#D8A31A]'></div>
           </h1>
         </div>
