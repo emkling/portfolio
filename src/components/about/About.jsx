@@ -44,13 +44,13 @@ const About = () => {
 
         <div className='max-w-[800px] w-full grid sm:grid-cols gap-8 px-4 pb-8 sm:pb-14  shadow-sm'>
           <div>
-            <p className='text-2xl'>Hello, I am a student searching for development opportunites, exploring a variety of tech stacks, and pursuing a part-time Masters in Computer Science through the University of Illinois.</p>  
+            <p className='text-2xl'>Hello, I am a student searching for development opportunites, exploring a variety of tech stacks, and pursuing a Masters in Computer Science through the University of Illinois.</p>  
           </div >
           <div className='sm:text-left sm:pt-6 flex flex-col'>
             <p className='text-2xl font-bold text-[#D8A31A]'> Education: </p>
             <p>Masters in Computer Science (in progress) </p>
             <p>B.S. Computer Science</p> 
-            <p>B.A. Cognitive Science // Political Science</p>
+            <p>B.A. Cognitive Science and Political Science</p>
           </div>
             <Skills />
         </div>
