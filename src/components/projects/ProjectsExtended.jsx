@@ -51,7 +51,7 @@ const Projects = () => {
              
              <div className='w-full  bg-[#102649] rounded-md  flex justify-center items-center p-4'>
              <p className='text-left '>JavaFX application that simulates the functions and interface of an inventory management system  
-               <br /> <br/> Features: data manipulation, search functions, auto-ID generators, warning prompts, and deletion parameters </p> 
+               <br /> <br/> Features: data manipulation, search functions, auto-ID generators, warning prompts, and deletion parameters. </p> 
              </div>
              <a href = "https://github.com/emkling/inventory-management-application" target="_blank" className='flex justify-end pr-2 pt-4 text-gray-300 hover:text-[#D8A31A]' ><FaGithub color='#D8A31A' size={25}/></a>
           </div>
@@ -65,7 +65,7 @@ const Projects = () => {
              </div>
              
              <div className='w-full  bg-[#102649] rounded-md  flex justify-center items-center p-4'>
-               <p className='text-left '>Built with JavaScript, HTML, CSS, React, and Tailwind </p> 
+               <p className='text-left '>Built with JavaScript, HTML, CSS, React, and Tailwind. </p> 
              </div>
              <a href = "https://github.com/emkling/portfolio" target="_blank" className='flex justify-end pr-16 pt-4 text-gray-300 hover:text-[#D8A31A]' ><FaGithub color='#D8A31A' size={25}/></a>
           </div>

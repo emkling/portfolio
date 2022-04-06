@@ -37,7 +37,7 @@ const Projects = () => {
          </svg>
         </div>
 
-      <motion.div animate={animation} name='projects' id='projects' className='max-w-[1000px] mx-auto p-4 snap-start' >
+      <motion.div animate={animation} name='projects' id='projects' className='max-w-[1000px] mx-auto p-4 sm:snap-start' >
         <div className='sm:text-center pt-36 pb-6 sm:pb-10'>
           <h1 className='text-4xl pl-4 sm:pl-0 font-bold relative rounded-md text-[#D8A31A]'>
           <div className='hidden w-2/6 md:inline-block left-0 absolute h-[1.5px] top-1/2 bg-[#D8A31A] rounded-md'></div>
@@ -73,7 +73,7 @@ const Projects = () => {
              
              <div className='w-full  bg-[#102649] rounded-md  flex justify-center items-center p-4'>
              <p className='text-left'>Python program that solves a variation of the "Traveling Salesman Problem." Finds an acceptable route for a package delivery service through the implementation of a greedy algorithm.
-               <br /> <br/> Time is simulated to track the status of packages, and record the progress of trucks throughout a simulated day. A user interface offers options for viewing various reports pertaining to the deliveries.</p> 
+               <br /> <br/> Time is simulated to track the status of packages and a user interface offers options for viewing various reports pertaining to the deliveries.</p> 
                
              </div>
              <a href = "https://github.com/emkling/delivery-routing-program" target="_blank" className='flex justify-end pr-16 pt-4 text-gray-300 hover:text-[#D8A31A]' ><FaGithub color='#D8A31A' size={25}/></a>
