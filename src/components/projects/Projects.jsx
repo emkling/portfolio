@@ -73,7 +73,7 @@ const Projects = () => {
              
              <div className='w-full  bg-[#102649] rounded-md  flex justify-center items-center p-4'>
              <p className='text-left'>Python program that solves a variation of the "Traveling Salesman Problem." Finds an acceptable route for a package delivery service through the implementation of a greedy algorithm.
-               <br /> <br/> Time is simulated to track the status of packages and a user interface offers options for viewing various reports pertaining to the deliveries.</p> 
+               <br /> <br/> Time is simulated to track the status of packages and a user interface provides various reports pertaining to the deliveries.</p> 
                
              </div>
              <a href = "https://github.com/emkling/delivery-routing-program" target="_blank" className='flex justify-end pr-16 pt-4 text-gray-300 hover:text-[#D8A31A]' ><FaGithub color='#D8A31A' size={25}/></a>
