@@ -15,7 +15,7 @@ const Navbar = () => {
       initial={{ opacity : 0 }}
       animate={{opacity: 1}}
       transition={{ duration:7}}>
-        <img src={Logo} alt='Logo' style={{width: '120px'}} />
+        <img src={Logo} alt='Logo' style={{width: '80px'}} />
       </motion.div>
 
         <ul className='hidden lg:flex gap-12'>

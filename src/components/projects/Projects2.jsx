@@ -9,7 +9,7 @@ import { useInView } from 'react-intersection-observer'
 import { useEffect } from 'react';
 
 
-const Projects = () => {
+const Projects2 = () => {
 
   const {ref, inView} = useInView({threshold: 0.5});
   const animation = useAnimation();
@@ -31,17 +31,12 @@ const Projects = () => {
 
   return (
     <div ref={ref} className='w-full sm:h-screen relative text-gray-300 bg-[#0a192f] z-10'>
-        <div id="wave2">
-       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-         <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-         </svg>
-        </div>
-
+        
       <motion.div animate={animation} name='projects' id='projects' className='max-w-[1000px] mx-auto p-4 sm:snap-start' >
         <div className='sm:text-center pt-36 pb-6 sm:pb-10'>
           <h1 className='text-4xl pl-4 sm:pl-0 font-bold relative rounded-md text-[#D8A31A]'>
           <div className='hidden w-2/6 md:inline-block left-0 absolute h-[1.5px] top-1/2 bg-[#D8A31A] rounded-md'></div>
-          Projects
+          Continued
           <div className='hidden w-2/6 md:inline-block right-0 absolute h-[1.5px] top-1/2 bg-[#D8A31A] rounded-md'></div>
           </h1>
         </div>
@@ -84,4 +79,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projects2

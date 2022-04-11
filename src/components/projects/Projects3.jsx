@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer'
 import { useEffect } from 'react';
 
 
-const Projects = () => {
+const Projects3 = () => {
 
   const {ref, inView} = useInView({threshold: 0.5});
   const animation = useAnimation();
@@ -82,4 +82,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projects3

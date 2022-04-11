@@ -38,7 +38,7 @@ const About = () => {
            </svg>
         </div>
 
-    <motion.div animate={animation} className='flex flex-col relative justify-center items-center w-full h-screen z-10' >
+    <motion.div animate={animation} className='flex flex-col relative justify-center  items-center w-full h-screen z-10' >
       <div className='max-w-[1000px] w-full gap-8 pb-2 sm:pb-4'>
         <div className='sm:text-center sm:pb-14'>
           <h1 className='text-4xl pl-4 sm:pl-0 font-bold relative rounded-md text-[#D8A31A]'>
@@ -49,8 +49,8 @@ const About = () => {
           </div>
         </div>
 
-        <div className='max-w-[800px] w-full grid sm:grid-cols gap-8 px-4 pb-4 sm:pb-14  shadow-sm'>
-          <div>
+        <div className='max-w-[800px] w-full grid sm:grid-cols gap-8 px-4 pb-4 sm:pb-14 '>
+          <div >
             <p className='text-2xl'>Hello, I am a student searching for development opportunites, exploring a variety of tech stacks, and pursuing a Masters in Computer Science through the University of Illinois.</p>  
           </div >
           <div className='sm:text-left sm:pt-6 flex flex-col'>

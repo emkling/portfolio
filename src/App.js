@@ -1,5 +1,5 @@
 import React from 'react'
-import {About, Contact, Home, Navbar, Projects, ProjectsExtended} from './components'
+import {About, Contact, Home, Navbar, Projects1, Projects2, Projects3} from './components'
 import ParticleBackground from './components/background/ParticleBackground'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from 'react';
@@ -32,8 +32,9 @@ const App = () => {
       <motion.div initial={{opacity:0}} animate={animation}><ParticleBackground/></motion.div>
       <Home />
       <About />
-      <Projects />
-      <ProjectsExtended />
+      <Projects1 />
+      <Projects2 />
+      <Projects3 />
       <Contact />
     </div>
   )
