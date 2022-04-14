@@ -1,6 +1,6 @@
 import React from 'react'
 import dashboard from '../assets/dashboard-app.png'
-import portfolio from '../assets/portfolio-picture.png'
+import news from '../assets/news-picture.png'
 import appointment from '../assets/appointment-app.png'
 import {FaGithub} from 'react-icons/fa'
 import delivery from '../assets/delivery-app.png'
@@ -45,7 +45,7 @@ const Projects1 = () => {
         </motion.div>
 
         <motion.section animate={animation} className='max-w-[1000px] sm:h-1/3 m-auto flex align-center rounded-md justify-center'>
-          <div style={{backgroundImage: `url(${dashboard})`}} className='sm:w-1/2 h-full bg-cover rounded-md brightness-75' > </div>
+          <div style={{backgroundImage: `url(${news})`}} className='sm:w-1/2 h-full bg-cover rounded-md brightness-90' > </div>
 
           <div className='w-1/2 flex-col align-even justify-center ml-[-60px] flex z-10'>
              <div className='text-[#B33B3B] pb-4'>
@@ -76,9 +76,9 @@ const Projects1 = () => {
                <br /> <br/> Features: GUI, SQL data access objects, appointment validations, data reports, reminders, time conversions, user error preventions, logging functions, login screen</p> 
                
              </div>
-             <a href = "https://github.com/emkling/delivery-routing-program" target="_blank" className='flex justify-end pr-16 pt-4 text-gray-300 hover:text-[#B33B3B]' ><FaGithub color='#B33B3B' size={25}/></a>
+             <a href = "https://github.com/emkling/scheduling-desktop-application" target="_blank" className='flex justify-end pr-16 pt-4 text-gray-300 hover:text-[#B33B3B]' ><FaGithub color='#B33B3B' size={25}/></a>
           </div>
-          <div style={{backgroundImage: `url(${appointment})`}} className='sm:w-1/2 h-full bg-cover rounded-md bg-[#FFFFFF] brightness-75' > </div>
+          <div style={{backgroundImage: `url(${appointment})`}} className='sm:w-1/2 h-full bg-cover rounded-md bg-[#FFFFFF] brightness-90' > </div>
         </motion.section>
     </div>
   )
