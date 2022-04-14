@@ -88,10 +88,6 @@ const Projects3 = () => {
              <a href = "https://github.com/emkling/inventory-management-application" target="_blank" className='flex justify-end pr-2 pb-8 pt-4 text-gray-300 hover:text-[#B33B3B]' ><FaGithub color='#B33B3B' size={25}/></a>
           </div>
         </motion.section>
-
-
-        
-
         <div id="wave" className=''>
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>

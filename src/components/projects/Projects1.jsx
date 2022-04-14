@@ -54,7 +54,7 @@ const Projects1 = () => {
              </div>
              
              <div className='w-full  bg-[#102649] glass rounded-md  flex justify-center items-center p-4'>
-               <p className='text-left sm:text-right'>Research tool for searching and comparing news articles from the following APIs: Google News, Bing News, NewsAPI, NewsCatcher, WebSearch.
+               <p className='text-left sm:text-right'>Research tool that allows for concurrent searching and comparing of news articles from the following APIs: Google News, Bing News, NewsAPI, NewsCatcher, WebSearch.
                <br /><br/>Built with JavaScript, React, HTML, Tailwind, and Redux Toolkit</p> 
              </div>
              <div className='flex flex-row justify-end gap-4'> 
