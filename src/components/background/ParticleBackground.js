@@ -22,7 +22,7 @@ const ParticleBackground = () => {
               enable: true,
               mode: "repulse",
             },
-            resize: true,
+            resize: false,
           },
           modes: {
             bubble: {
@@ -32,7 +32,7 @@ const ParticleBackground = () => {
               size: 40,
             },
             push: {
-              quantity: 4,
+              quantity: 2,
             },
             repulse: {
               distance: 200,
@@ -47,7 +47,7 @@ const ParticleBackground = () => {
           links: {
             color: "#971919",
             distance: 150,
-            enable: false,
+            enable: true,
             opacity: 0.4,
             width: 1,
           },
@@ -67,10 +67,10 @@ const ParticleBackground = () => {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 60,
           },
           opacity: {
-            value: 0.6,
+            value: 0.8,
           },
           shape: {
             type: "circle",

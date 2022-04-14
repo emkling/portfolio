@@ -24,7 +24,7 @@ const Contact = () => {
 
   return (
       <div ref={ref} mame='contact' id='contact' className='w-full h-screen flex justify-center relative items-center p-4 snap-start bg-[#0a192f] bg-gradient-two'>
-        <div id="wave2" className='z-10'>
+        <div id="wave2" className='z-10 '>
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
             </svg>
