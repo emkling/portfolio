@@ -53,8 +53,9 @@
 }
 
 #wave .shape-fill {
-    fill: #D8A31A;
+    fill: #b33b3b;
     opacity: 1;
+    filter: brightness(35%);
 }
 
 #wave2 {
@@ -68,8 +69,9 @@
 }
 
 #wave2 .shape-fill {
-    fill: #D8A31A;
+    fill: #b33b3b;
     opacity: 1;
+    filter: brightness(35%);
 }
 
 #wave2 svg {
@@ -88,3 +90,14 @@
     z-index: 0;
     background-color:#8892b0;
 }
+
+
+
+  .glass {
+    background: #081336bd;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }

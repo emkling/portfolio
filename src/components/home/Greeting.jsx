@@ -25,7 +25,7 @@ const animation = useAnimation();
       
   return (
       <div ref={ref}>
-    <motion.p  initial={{x:'-100vw'}} animate={animation} className='text-[#D8A31A] text-2xl ml-1 pb-2' >
+    <motion.p  initial={{x:'-100vw'}} animate={animation} className='text-[#c85d5d] text-2xl ml-1 pb-2' >
         Hello, my name is</motion.p>
         </div>
   )

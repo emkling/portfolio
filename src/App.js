@@ -27,9 +27,9 @@ const App = () => {
   }, [inView]);
 
   return (
-    <div ref={ref} className='sm:snap-mandatory sm:snap-y sm:overflow-y-scroll scrollbar-width-none h-screen bg-["#0a192f"] '>
+    <div ref={ref} className='sm:snap-mandatory sm:snap-y sm:overflow-y-scroll scrollbar-width-none h-screen bg-[#0f0e13] bg-gradient-two'>
       <Navbar />
-      <motion.div initial={{opacity:0}} animate={animation}><ParticleBackground/></motion.div>
+      <motion.div initial={{opacity:0}} className='-z-10' animate={animation}><ParticleBackground/></motion.div>
       <Home />
       <About />
       <Projects1 />

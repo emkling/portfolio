@@ -10,7 +10,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-3 bg-[#0a192f] text-gray-300 z-20'>
+    <div className='fixed w-full h-[80px] flex justify-between bg-opacity-50 items-center px-3 bg-[#0f0e13] text-gray-300 z-20'>
       <motion.div
       initial={{ opacity : 0 }}
       animate={{opacity: 1}}
@@ -18,29 +18,29 @@ const Navbar = () => {
         <img src={Logo} alt='Logo' style={{width: '80px'}} />
       </motion.div>
 
-        <ul className='hidden lg:flex gap-12'>
-          <motion.li className=' hover:text-[#D8A31A]'
+        <ul className='hidden lg:flex gap-10'>
+          <motion.li className=' hover:text-[#b33b3b]'
           initial={{ opacity : 0 }}
           animate={{opacity: 1}}
           transition={{ duration:2}}>
             <a href='#home'>Home </a>
             </motion.li>
 
-          <motion.li className=' hover:text-[#D8A31A]'
+          <motion.li className=' hover:text-[#b33b3b]'
           initial={{ opacity : 0 }}
           animate={{opacity: 1}}
           transition={{ duration:3}}>
             <a href='#about'>About </a>
           </motion.li>
 
-          <motion.li className=' hover:text-[#D8A31A]'
+          <motion.li className=' hover:text-[#b33b3b]'
           initial={{ opacity : 0 }}
           animate={{opacity: 1}}
           transition={{ duration:4}}>
             
             <a href='#projects'>Work </a></motion.li>
 
-          <motion.li className=' hover:text-[#D8A31A]'
+          <motion.li className=' hover:text-[#b33b3b]'
           initial={{ opacity : 0 }}
           animate={{opacity: 1}}
           transition={{ duration:5}}>
@@ -53,22 +53,22 @@ const Navbar = () => {
         {!nav ? <FaBars /> : <FaTimes/>}
       </div>
         <motion.ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-          <li className='hover:text-[#D8A31A] py-8 text-4xl'> 
+          <li className='hover:text-[#b33b3b] py-8 text-4xl'> 
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
           </li>
-          <li className='hover:text-[#D8A31A] py-8 text-4xl'>
+          <li className='hover:text-[#b33b3b] py-8 text-4xl'>
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link>
           </li>
-          <li className='hover:text-[#D8A31A] py-8 text-4xl'>
+          <li className='hover:text-[#b33b3b] py-8 text-4xl'>
           <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
             Projects
           </Link>
           </li>
-          <li className='hover:text-[#D8A31A] py-8 text-4xl'>
+          <li className='hover:text-[#b33b3b] py-8 text-4xl'>
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact
           </Link>

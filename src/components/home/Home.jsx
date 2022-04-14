@@ -29,7 +29,7 @@ useEffect(() => {
 
 
   return (
-    <div ref={ref}  className=' w-full relative h-screen '>
+    <div ref={ref}  className=' w-full relative h-screen bg-gradient-two'>
       
       <div name='home' id='home' className='max-w-[1000px] relative z-10 mx-auto px-12 pb-60 flex flex-col justify-center h-screen snap-start'>
         <Greeting />
@@ -43,17 +43,17 @@ useEffect(() => {
         initial={{ x : '100vw' }}
         animate={{x: 0}}
         transition={{type: 'easeout', duration:2.5, bounce: .2}}
-        >I'm a CS grad student</motion.p>
+        >I'm a CS student</motion.p>
         <div>
           <div className='flex flex-row flex-start gap-12'>
 
             <motion.a initial={{ opacity:0 }}
-            animate={animation} href={resume} download="Elliott_K_Resume" className="text-white border-2 px-3 md:px-5 py-3 group my-2 flex items-center hover:border-[#D8A31A] rounded-lg hover:bg-[#D8A31A]">Resume <span className='group-hover:rotate-90 duration-300'>
+            animate={animation} href={resume} download="Elliott_K_Resume" className="text-white border-2 px-3 md:px-5 py-3 group my-2 flex items-center hover:border-[#b33b3b] rounded-lg hover:bg-[#b33b3b]">Resume <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-3' />
             </span> </motion.a>
             
             <motion.a initial={{ opacity:0 }}
-            animate={animation} href='#projects' className="bg-[#D8A31A] text-white border-2 px-2 md:px-4 py-3 my-2 flex items-center group border-[#D8A31A] rounded-lg hover:bg-[#0a192f]">View Work  <span className='group-hover:rotate-90 duration-300'>
+            animate={animation} href='#projects' className="bg-[#b33b3b] text-white border-2 px-2 py-1   sm:px-4 md:px-4 sm:py-2 my-2 flex items-center group border-[#b33b3b] rounded-lg hover:bg-[#0a192f]">View Work  <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-3' />
             </span> </motion.a>
         </div>
@@ -61,7 +61,7 @@ useEffect(() => {
       
     </div>
       <motion.div id='wave'>
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
         </svg>
         </motion.div>
