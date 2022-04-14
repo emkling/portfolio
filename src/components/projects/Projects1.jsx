@@ -58,7 +58,7 @@ const Projects1 = () => {
                <br /><br/>Built with JavaScript, React, HTML, Tailwind, and Redux Toolkit</p> 
              </div>
              <div className='flex flex-row justify-end gap-4'> 
-             <a href='https://app.netlify.com/sites/news-aggregator6278/overview' className='flex justify-end pr-2 pt-4 text-gray-300 hover:text-[#B33B3B]' > <GoLinkExternal color='#B33B3B' size={25} /> </a>
+             <a href='https://news-aggregator6278.netlify.app/' className='flex justify-end pr-2 pt-4 text-gray-300 hover:text-[#B33B3B]' > <GoLinkExternal color='#B33B3B' size={25} /> </a>
              <a href = "https://github.com/emkling/news-aggregator" target="_blank" className='flex justify-end pr-2 pt-4 text-gray-300 hover:text-[#B33B3B]' ><FaGithub color='#B33B3B' size={25}/></a>
           </div>
           </div>
