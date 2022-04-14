@@ -4,7 +4,7 @@ import {FaGithub} from 'react-icons/fa'
 import {MdOutlineEmail} from 'react-icons/md'
 import{HiOutlineNewspaper} from 'react-icons/hi'
 import {motion} from 'framer-motion'
-import resume from '../assets/testResume.pdf'
+import resume from '../assets/Elliott-Klingenberg-Resume.pdf'
 
 const HeaderSocials = () => {
   return (
@@ -14,7 +14,7 @@ const HeaderSocials = () => {
         initial={{ y : '100vh' }}
         animate={{y: 0}}
         transition={{type: 'spring', duration:1.5, bounce: .3}}>
-          <a href={resume} download="Elliott_K_Resume" className='flex justify-between items-center w-full text-gray-300 hover:text-[#b33b3b]'>Resume<HiOutlineNewspaper color='#b33b3b' size={25}/></a>
+          <a href={resume} download="Elliott_Klingenberg_Resume" className='flex justify-between items-center w-full text-gray-300 hover:text-[#b33b3b]'>Resume<HiOutlineNewspaper color='#b33b3b' size={25}/></a>
         </motion.li>
 
         {/*<motion.li className='w-[180px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0] color duration-300'

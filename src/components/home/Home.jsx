@@ -4,7 +4,7 @@ import {motion, useAnimation} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from 'react';
 import Greeting from './Greeting';
-import resume from '../assets/testResume.pdf'
+import resume from '../assets/Elliott-Klingenberg-Resume.pdf'
 
 const Home = () => {
 
@@ -48,7 +48,7 @@ useEffect(() => {
           <div className='flex flex-row flex-start gap-12'>
 
             <motion.a initial={{ opacity:0 }}
-            animate={animation} href={resume} download="Elliott_K_Resume" className="text-white border-2 px-3 md:px-5 py-3 group my-2 flex items-center hover:border-[#b33b3b] rounded-lg hover:bg-[#b33b3b]">Resume <span className='group-hover:rotate-90 duration-300'>
+            animate={animation} href={resume} download="Elliott_Klingenberg_Resume" className="text-white border-2 px-3 md:px-5 py-3 group my-2 flex items-center hover:border-[#b33b3b] rounded-lg hover:bg-[#b33b3b]">Resume <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-3' />
             </span> </motion.a>
             

@@ -48,7 +48,7 @@ const Projects2 = () => {
                <br /> <br/>Built with JavaScript, React, HTML, Tailwind, and Redux Toolkit </p> 
              </div>
              <div className='flex flex-row justify-end gap-4'> 
-             <a href='https://funny-beignet-43fc25.netlify.app/' className='flex justify-end pr-2 pt-4 text-gray-300 hover:text-[#B33B3B]' > <GoLinkExternal color='#B33B3B' size={25} /> </a>
+             <a href='https://crypto-dashboard6278.netlify.app/' className='flex justify-end pr-2 pt-4 text-gray-300 hover:text-[#B33B3B]' > <GoLinkExternal color='#B33B3B' size={25} /> </a>
              <a href = "https://github.com/emkling/crypto-dashboard" target="_blank" className='flex justify-end pr-2 pt-4 text-gray-300 hover:text-[#B33B3B]' ><FaGithub color='#B33B3B' size={25}/></a>
           </div>
           </div>
