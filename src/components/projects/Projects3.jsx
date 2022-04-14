@@ -51,7 +51,7 @@ const Projects3 = () => {
              </div>
              
              <div className='w-full  glass rounded-md  flex justify-center items-center p-4'>
-             <p className='text-left '>Predicts the presence of heart disease through a linear regression machine learning model. Training data consists of 13 attributes taken from medical studies.</p> 
+             <p className='text-left sm:text-right '>Predicts the presence of heart disease through a linear regression machine learning model. Training data consists of 13 attributes taken from medical studies.</p> 
              </div>
              <a href = "https://github.com/emkling/heart-disease-tool" target="_blank" className='flex justify-end pr-2 pt-4 pb-8 text-gray-300 hover:text-[#B33B3B]' ><FaGithub color='#B33B3B' size={25}/></a>
           </div>
@@ -65,7 +65,7 @@ const Projects3 = () => {
              </div>
              
              <div className='w-full  bg-[#102649] glass rounded-md  flex justify-center items-center p-4'>
-             <p className='text-left'>Python program that solves a variation of the "Traveling Salesman Problem" through the implementation of a greedy algorithm.</p> 
+             <p className='text-left '>Python program that solves a variation of the "Traveling Salesman Problem" through the implementation of a greedy algorithm.</p> 
                
              </div>
              <a href = "https://github.com/emkling/delivery-routing-program" target="_blank" className='flex justify-end pr-16 pt-4 pb-8 text-gray-300 hover:text-[#B33B3B]' ><FaGithub color='#B33B3B' size={25}/></a>
@@ -83,7 +83,7 @@ const Projects3 = () => {
              </div>
              
              <div className='w-full  glass rounded-md  flex justify-center items-center p-4'>
-             <p className='text-left '>JavaFX application that simulates the functions and interface of an inventory management system   </p> 
+             <p className='text-left sm:text-right'>JavaFX application that simulates the functions and interface of an inventory management system   </p> 
              </div>
              <a href = "https://github.com/emkling/inventory-management-application" target="_blank" className='flex justify-end pr-2 pb-8 pt-4 text-gray-300 hover:text-[#B33B3B]' ><FaGithub color='#B33B3B' size={25}/></a>
           </div>
